@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sms32v50</id>
+    <version>5.0</version>
+    <packageSourceUrl>https://github.com/gsmitheidw/sms32v50</packageSourceUrl>
+    <owners>Graham Smith</owners>
+    <title>sms32v50 (Install)</title>
+    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
+    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
+    <licenseUrl>https://github.com/nbauers/Learn-x86-assembler/blob/master/COPYING.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/nbauers/Learn-x86-assembler</projectSourceUrl>
+    <docsUrl>http://www.softwareforeducation.com/sms32v50/sms32v50_manual/index.htm</docsUrl>
+    <bugTrackerUrl>https://github.com/nbauers/Learn-x86-assembler/issues</bugTrackerUrl>
+    <tags>sms32v50 Microprocessor Simulator assembly code</tags>
+    <summary>Microprocessor Simulator</summary>
+    <description>Microprocessor Simulator</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
