@@ -17,3 +17,12 @@ Install-ChocolateyZipPackage @packageArgs
 $target = Join-Path $toolsDir "sms32v50.exe"
 Install-ChocolateyShortcut -shortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\smz32v50.lnk" -targetPath $target 
 
+# We cannot set a specific dependency for Java Runtime as Oracle JRE, JDK and OpenJDK etc are all possible alternatives
+# In light of this, check java.exe is on the path and warn the user if none found:
+
+[bool]$javafound = (Get-Command java -ErrorAction SilentlyContinue).Name -eq 'java.exe'
+	
+	if ($javafound = $false) 
+	{
+	Write-Warning "Note: No Java Java Runtime found, this is required"
+	}
