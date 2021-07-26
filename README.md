@@ -1,6 +1,5 @@
 # smz32v50
-Chocolatey package recipe for Microsimulator Software for Students by [Neil Bauers]
-(https://github.com/nbauers)
+Chocolatey package recipe for Microsimulator Software for Students by [Neil Bauers](https://github.com/nbauers)
 
 ## Full site: 
 http://www.softwareforeducation.com/
