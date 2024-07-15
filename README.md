@@ -2,7 +2,11 @@
 Chocolatey package recipe for Microsimulator Software for Students by [Neil Bauers](https://github.com/nbauers)
 
 ## Full site: 
-http://www.softwareforeducation.com/
+The main website appears to be no longer available: <br>
+https://web.archive.org/web/20210620102642/http://softwareforeducation.com/sms32v50/index.php
+
+### Licence
+Note that this software is available and redistibutable under GNU GPL (as per archived website link)
 
 ## Features:
 
@@ -12,3 +16,6 @@ http://www.softwareforeducation.com/
 - Learn about control systems and program simulated input and output peripherals.
 - Learn about polling and interrupts.
 - Licenced with GNU General Public License v3.0
+
+## Development
+Development of this software ended on version 5.0 
