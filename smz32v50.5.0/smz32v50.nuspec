@@ -1,23 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>smz32v50</id>
     <version>5.0</version>
-    <packageSourceUrl>https://github.com/gsmitheidw/smz32v50</packageSourceUrl>
-    <owners>Graham Smith</owners>
     <title>smz32v50</title>
     <authors>Neil Bauers</authors>
-    <projectUrl>http://www.softwareforeducation.com/sms32v50</projectUrl>
+    <owners>Graham Smith</owners>
     <licenseUrl>https://github.com/nbauers/Learn-x86-assembler/blob/master/COPYING.txt</licenseUrl>
+    <projectUrl>http://www.softwareforeducation.com/sms32v50</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Microprocessor Simulator</description>
+    <summary>Microprocessor Simulator</summary>
+    <tags>sms32v50 Microprocessor Simulator assembly code</tags>
     <projectSourceUrl>https://github.com/nbauers/Learn-x86-assembler</projectSourceUrl>
+    <packageSourceUrl>https://github.com/gsmitheidw/smz32v50</packageSourceUrl>
     <docsUrl>http://www.softwareforeducation.com/sms32v50/sms32v50_manual/index.htm</docsUrl>
     <bugTrackerUrl>https://github.com/nbauers/Learn-x86-assembler/issues</bugTrackerUrl>
-    <tags>sms32v50 Microprocessor Simulator assembly code</tags>
-    <summary>Microprocessor Simulator</summary>
-    <description>Microprocessor Simulator</description>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
